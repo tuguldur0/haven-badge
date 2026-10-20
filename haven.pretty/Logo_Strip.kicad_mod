@@ -1,0 +1,166 @@
+(footprint "Logo_Strip"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "5 sponsor logo placeholders, 17 x 12 mm each, 2.5 mm gaps")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e72cf3ad-c315-4c0b-b43e-7124434f682d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Logo_Strip"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f494016-63b1-487f-81f4-99a8ed0ecebc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75c6d678-7546-4f4d-a69b-06db27bebf7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef185528-fe87-4585-b467-6f8b388cdd3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -47.5 -6)
+		(end -30.5 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3241f66a-a98c-438d-b4cd-8999ef2c64d2")
+	)
+	(fp_rect
+		(start -28 -6)
+		(end -11 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "37191f5c-b37e-442d-8797-fff32f643ac6")
+	)
+	(fp_rect
+		(start -8.5 -6)
+		(end 8.5 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9c723aa8-5e4d-4d2b-af33-b36457289715")
+	)
+	(fp_rect
+		(start 11 -6)
+		(end 28 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d483f172-6c8d-4204-8175-287b568a0bf5")
+	)
+	(fp_rect
+		(start 30.5 -6)
+		(end 47.5 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b6724130-fc96-47cd-a4bf-68ef96249045")
+	)
+	(fp_text user "LOGO1"
+		(at -39 0 0)
+		(layer "F.SilkS")
+		(uuid "60a6d1d8-8047-499e-a28d-24ff1290dc81")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.22)
+			)
+		)
+	)
+	(fp_text user "LOGO2"
+		(at -19.5 0 0)
+		(layer "F.SilkS")
+		(uuid "05f047b7-1132-49be-81c2-9a75e0391f25")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.22)
+			)
+		)
+	)
+	(fp_text user "LOGO3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a50f5c75-ec9c-41fe-8018-7d703b7a1c1a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.22)
+			)
+		)
+	)
+	(fp_text user "LOGO4"
+		(at 19.5 0 0)
+		(layer "F.SilkS")
+		(uuid "8a3ac92a-cadb-4903-9995-31b66e586599")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.22)
+			)
+		)
+	)
+	(fp_text user "LOGO5"
+		(at 39 0 0)
+		(layer "F.SilkS")
+		(uuid "f34a69b7-e170-4ade-ba9f-9f0469af8797")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.22)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,12 @@
+Plan approved, with these answers:
+1. Keep the bottom 1x5 socket in every case. It gives the I2C pins and stops the module being inserted rotated 180 degrees. If the clones ship without bottom pins, we'll solder 1x5 male headers onto them.
+2. D1 = 1N5819 through-hole (DO-41). The board is all through-hole.
+3. Layout B, with the name box at the bottom centre and one central lanyard slot at the top.
+
+Now do the SCHEMATIC ONLY. No PCB layout yet.
+- Create the project with KiCad closed. Replace the stub .kicad_pro/.kicad_sch/.kicad_pcb with complete files; the .kicad_pcb must contain a full 2-layer stack before you go further.
+- Create the custom symbols and footprints (haven:RP2040-Zero_Socketed with all 23 pins; haven:GMT020-02-8P_Socketed with socket, 4 holes and outline in one footprint) from the drawings in parts\. For each custom footprint, list every dimension you used and its source.
+- Capture the schematic per the approved GPIO table and power design (JP1 bridged to 5V by default, the 100k/100k divider on BAT+ before D1, 100 R to BL, 8 buttons to GND, J4 expansion header unpopulated).
+- Run ERC to 0 errors and export a schematic PDF.
+- Then run an independent reviewer subagent that has NOT seen your reasoning. It audits the netlist pin by pin against the RP2040-Zero pinout/schematic and the display pin order, and checks the custom footprints' dimensions against the drawings. Report its findings unedited.
+- Update specs/bom.md. Stop for my approval before any PCB work.

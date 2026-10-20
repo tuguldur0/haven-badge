@@ -1,0 +1,16 @@
+# KiCad lock files, backups and local history
+~*.lck
+*.lck
+*-backups/
+.history/
+*.bak
+*.pretty.bak/
+fp-info-cache
+*.kicad_prl
+
+# Generated reports (re-run DRC/ERC to regenerate)
+*-drc.json
+*-erc.json
+
+# Local Claude Code settings
+.claude/settings.local.json

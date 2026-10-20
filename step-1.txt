@@ -1,0 +1,33 @@
+NEW PROJECT: Haven game jam badge v2. Read everything in parts\ first. This step is PLAN ONLY: create no files, then stop for my approval.
+
+CONTEXT
+- 69 badges for a Hack Club game jam (Nov 14-15). One fab run, no prototype, so correctness beats cleverness.
+- PCBWay makes bare PCBs only (no assembly). My friends and volunteers hand-solder everything, so design for hand soldering: through-hole wherever possible, 0805 or bigger passives, generous pads and spacing, and a silkscreen that shows every reference, value, pin 1 and polarity.
+
+BOARD
+- 100 x 75 mm, 2-layer, 1.6 mm. Lanyard holes or slot at the top. A large "HAVEN 2026" title and a blank silkscreen box for writing a name.
+- Propose two layouts with ASCII sketches and recommend one:
+  (A) landscape, display upright in the centre, D-pad left, A/B right;
+  (B) landscape, display rotated 90 degrees (320x240), controls split around it.
+  START/SELECT small and central. The RP2040-Zero's USB-C must be reachable at a board edge.
+
+PARTS (read the drawings in parts\ and verify every number)
+- U1: RP2040-Zero clone, pins pre-soldered, plugs into female 2.54 mm headers (1x9 x2 for the side rows; add the bottom row only if a needed GPIO is there). Use parts\module for the pinout, dimensions and schematic. Waveshare says the 5V pin is tied directly to USB VBUS. GP16 drives the module's own WS2812 LED; leave it alone.
+- DS1: 2.0" ST7789 240x320 SPI module, Goldenmorning GMT020-02-8P, 8 pins. Front view, pins at top, left to right: 1 GND (square pad), 2 VCC, 3 SCL, 4 SDA, 5 RST, 6 DC, 7 CS, 8 BL. Plugs into a 1x8 female socket and sits on standoffs at its 4 corner holes. Take the outline, hole spacing and pin-row position from the drawing in parts\display. If there is no dimension drawing, tell me and stop. The back has what looks like a regulator (Q1, "3-5 V" module) and a backlight transistor (Q2 near BL); confirm from the photo.
+- Power: 3xAA holder with its own switch and a JST-PH 2.0 lead, mounted on the back with foam tape (reserve the area; I'll give holder dimensions later). J5 is a JST-PH 2-pin through-hole vertical connector. D1 SS34 from BAT+ to the module's 5V pin, so USB can't back-feed the cells. 10 uF bulk on 5V.
+- Display VCC: default to the 5V rail after D1, with a solder jumper to choose 3V3 instead. Tell me which you think is right after reading the module schematic and the display photo.
+- Backlight: BL to a PWM-capable GPIO through 100 ohm.
+- Battery sense: BAT+ (before D1) through a 100k/100k divider with 100 nF to an ADC pin (GP26-29).
+- Buttons: 8x 6x6 mm through-hole tact switches (UP, DOWN, LEFT, RIGHT, A, B, START, SELECT) to GND, using internal pull-ups.
+- Hackability: an unpopulated 2.54 mm expansion header footprint with GND, 3V3 and the spare GPIOs, ideally an I2C pair.
+- No other parts. No vibration motor, no buzzer.
+
+WHAT I WANT BACK (plan only)
+1. What you read in parts\: the module pinout, the display dimensions and pins, and any conflicts with what I wrote above.
+2. A GPIO table: SPI on hardware SPI pins, with CS, DC, RST, BL, 8 buttons, battery ADC and expansion pins.
+3. The power design, with the 5V-pin and VCC decision explained.
+4. A parts list with KiCad 10 symbol and footprint names verified in the libraries, marking any custom footprint you'd need (with its source drawing).
+5. The two layout sketches and your recommendation.
+6. A risk list for a single fab run with hand soldering.
+Notes: when you later create the project, make sure the .kicad_pcb has a full layer stack. Last time a stub file without layers broke the PCB step. KiCad must be closed while you edit.
+Then stop and wait for my approval.

@@ -1,0 +1,133 @@
+(footprint "J4_Labels"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Pin names for the J4 expansion header")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69ac23a1-e704-4e14-9df4-a2740b0c69d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "J4_Labels"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b135601-849b-4120-9bef-1c4fb45642c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c008303-c99b-4448-b274-cf35c1419721")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33da435a-9756-48a4-acc3-8a7b2cdfae43")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "GND"
+		(at -3.6 0 0)
+		(layer "F.SilkS")
+		(uuid "e72b5225-68de-422c-8349-795b4b1420ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "3V3"
+		(at -3.6 2.54 0)
+		(layer "F.SilkS")
+		(uuid "abb30742-ca36-4ca7-948c-49fb295b41a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SCL"
+		(at -3.6 5.08 0)
+		(layer "F.SilkS")
+		(uuid "ffd55f93-4289-484a-812c-8a1f87ecd8ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SDA"
+		(at -3.6 7.62 0)
+		(layer "F.SilkS")
+		(uuid "4fd3964d-994a-496d-ba8d-f6d6cf5a3c79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "GP11"
+		(at -3.6 10.16 0)
+		(layer "F.SilkS")
+		(uuid "58d4663b-7cd1-46c2-8b73-5a3375c02cab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "GP10"
+		(at -3.6 12.7 0)
+		(layer "F.SilkS")
+		(uuid "8bdd6d82-140f-4ee2-a448-a87ec9bd329e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "GP9"
+		(at -3.6 15.24 0)
+		(layer "F.SilkS")
+		(uuid "36872cbb-7eff-438e-ab09-bc2e0db12b9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

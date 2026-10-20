@@ -1,0 +1,89 @@
+(footprint "Polarity_PH2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Big +/- marks for a 2-pin JST-PH, origin on pad 1")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e52f690a-8a02-4f43-8458-dbf3cd6c3083")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Polarity_PH2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8170372-637d-406b-9b84-e3937bd6c845")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05a491f0-1ad6-4060-af7c-315d50984ce9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8a8f5b2-9c37-4dd4-bb49-ee1ef7f15748")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "+"
+		(at -5.2 0 0)
+		(layer "F.SilkS")
+		(uuid "ad91c474-27be-4ed4-b87e-674e051c928f")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.45)
+			)
+		)
+	)
+	(fp_text user "BATT"
+		(at 1 4.6 0)
+		(layer "F.SilkS")
+		(uuid "3a727c24-29cc-4df2-b46b-e42885802a56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 7.2 0 0)
+		(layer "F.SilkS")
+		(uuid "ceb36353-a1ce-44ca-aee0-32f042f0edbf")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.45)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

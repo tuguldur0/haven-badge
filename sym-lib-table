@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "haven")(type "KiCad")(uri "${KIPRJMOD}/haven.kicad_sym")(options "")(descr ""))
+)

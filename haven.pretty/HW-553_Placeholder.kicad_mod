@@ -1,0 +1,224 @@
+(footprint "HW-553_Placeholder"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PLACEHOLDER for HW-553 0.9-5V to 5V boost module, 34x16.2 outline from listing; pad positions unverified, replace from the dimension drawing")
+	(tags "boost placeholder")
+	(property "Reference" "REF**"
+		(at 0 4.5 0)
+		(layer "F.SilkS")
+		(uuid "e0ac38ea-8cc2-4eea-9b49-cbb140853372")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HW-553_Placeholder"
+		(at 0 9.9 0)
+		(layer "F.Fab")
+		(uuid "62448e50-d5e8-4137-ba4b-b2952ca0b44e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8abc15fc-ce58-40b4-b87c-5a5cf7fa7ae0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbe7c91f-75f3-4918-9505-88ac6e868ac4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -17 -8.1)
+		(end 17 8.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "586a8095-0724-4b2d-afc5-13094c84e085")
+	)
+	(fp_rect
+		(start -17.25 -8.35)
+		(end 17.25 8.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "99408770-3b99-453c-8083-b826af02bbdc")
+	)
+	(fp_rect
+		(start -17 -8.1)
+		(end 17 8.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "04e3ec0c-8187-48f4-afac-c88ea883eadd")
+	)
+	(fp_text user "GND"
+		(at -9 -3.81 0)
+		(layer "F.SilkS")
+		(uuid "e33e5a09-5dc9-4d63-8c31-9dc4115c4902")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "D+"
+		(at -9 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "1270ef78-a9c9-4545-b02a-0390db6b1949")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "D-"
+		(at -9 1.27 0)
+		(layer "F.SilkS")
+		(uuid "02bbcfd8-e5f9-4d64-bfc5-14a9b0296320")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "5V"
+		(at -9 3.81 0)
+		(layer "F.SilkS")
+		(uuid "594d9694-967f-41e1-b30f-0f89660ed286")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "HW-553 PLACEHOLDER"
+		(at 0 -6.4 0)
+		(layer "F.SilkS")
+		(uuid "a399c96f-83fc-409c-9842-75b6e0064218")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "pads unverified"
+		(at 0 1.2 0)
+		(layer "F.SilkS")
+		(uuid "92c91e6d-bde2-41e2-9fd2-ff9b40226597")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "IN-"
+		(at 11.5 -5.6 0)
+		(layer "F.SilkS")
+		(uuid "b47848ca-757b-4ed9-a012-fe85d3ceeca0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "IN+"
+		(at 11.5 5.6 0)
+		(layer "F.SilkS")
+		(uuid "c6043782-5aeb-4197-aed8-3d2896dcef08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 14.5 5.6)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16381548-99d9-49a9-9bea-4c4305f7f75b")
+	)
+	(pad "2" thru_hole circle
+		(at 14.5 -5.6)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "761934a6-889a-45f1-a44f-5e28ae0c5a0d")
+	)
+	(pad "3" thru_hole circle
+		(at -12 -3.81)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32ed701b-8b61-4105-9876-20fe08675033")
+	)
+	(pad "4" thru_hole circle
+		(at -12 -1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "736cfcc0-3ecf-4a02-a84d-9712fbaa86d6")
+	)
+	(pad "5" thru_hole circle
+		(at -12 1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bd566368-7d3d-4d90-b97e-bb62f3d5548d")
+	)
+	(pad "6" thru_hole circle
+		(at -12 3.81)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d678240-b89f-4a80-b18f-9838ceb4ad80")
+	)
+	(embedded_fonts no)
+)
